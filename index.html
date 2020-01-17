@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Examination System</title>
+</head>
+
+<body>
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form">
+                <input class="login-name" type="text" placeholder="Name" />
+                <p class="incorrect-name">*Incorrect name</p>
+                <input class="login-email" type="email" placeholder="Email" />
+                <p class="incorrect-email">*Incorrect email</p class="incorrect-name">
+                <input class="login-password" type="password" placeholder="Password" />
+                <p class="incorrect-password">*A password should be at least 8 characters</p class="incorrect-name">
+                <button type="submit" id="btn-login">login</button>
+            </form>
+        </div>
+    </div>
+
+    <div class='question-container'>
+        <form class='question'></form>
+        <div class="buttons-container">
+            <button id="prev-btn">Prev</button>
+            <button id="skip-btn">Skip</button>
+            <button id="submit-btn">Submit</button>
+            <button id="next-btn">Next</button>
+        </div>
+    </div>
+
+    <div class="skipped-questions">
+        <h2>Skipped Questions</h2>
+    </div>
+
+    <div class="score"></div>
+    
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
