@@ -1,1 +1,1 @@
-# exam-system
+# Exam system
